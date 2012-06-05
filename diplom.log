@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.29)  4 JUN 2012 16:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.10.29)  5 JUN 2012 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,7 +214,8 @@ Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
 \c@ContinuedFloat=\count111
 Package caption Info: listings package is loaded.
 )) (./diplom.aux
-(./introduction.aux))
+(./acknowledgements.aux) (./introduction.aux) (./theory.aux) (./example.aux)
+(./results.aux) (./conclusion.aux))
 \openout1 = `diplom.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -231,8 +232,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
  (/usr/share/texmf/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
-)
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+) (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen128
@@ -295,12 +295,14 @@ e
 \c@lstlisting=\count118
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./diplom.toc)
+ (./diplom.toc
+(/usr/share/texmf/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
+))
 \tf@toc=\write3
 \openout3 = `diplom.toc'.
 
-
-[1
+ [1
 
 
 
@@ -309,47 +311,83 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `acknowledgements.aux'.
+
+ (./acknowledgements.tex)
 \openout2 = `introduction.aux'.
 
- (./introduction.tex
+
+(./introduction.tex
 Kapitel 1.
-(/usr/share/texmf/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
-)) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--23
+
+ []
+
+[1
+
+
 
 
 
 ]
-Missing character: There is no Ã in font cmsl12!
-Missing character: There is no œ in font cmsl12!
+\openout2 = `theory.aux'.
 
-Overfull \hbox (82.48637pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 2 \OT1/cmr/m/sl/12 KAPITEL 1.  EINF[PLEASEINSERT\PRERENDERUNICO
-DE{}INTOPREAMBLE]HRUNG
- []
-
-[2
-
-] (./diplom.bbl) [3
+ (./theory.tex
+Kapitel 2.
+) [2
 
 
-] (./diplom.aux (./introduction.aux)) ) 
+
+]
+\openout2 = `example.aux'.
+
+ (./example.tex
+Kapitel 3.
+) [3
+
+
+
+]
+\openout2 = `results.aux'.
+
+ (./results.tex
+Kapitel 4.
+) [4
+
+
+
+]
+\openout2 = `conclusion.aux'.
+
+ (./conclusion.tex
+Kapitel 5.
+) [5
+
+
+
+] (./diplom.bbl) [6
+
+
+
+] (./diplom.aux (./acknowledgements.aux)
+(./introduction.aux) (./theory.aux) (./example.aux) (./results.aux)
+(./conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 5535 strings out of 493633
- 77811 string characters out of 3148330
- 148358 words of memory out of 3500000
- 8747 multiletter control sequences out of 15000+200000
- 9544 words of font info for 34 fonts, out of 3000000 for 9000
+ 5576 strings out of 493633
+ 78375 string characters out of 3148330
+ 151986 words of memory out of 3500000
+ 8754 multiletter control sequences out of 15000+200000
+ 9798 words of font info for 35 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 40i,4n,40p,352b,530s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf/f
-onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on diplom.pdf (4 pages, 50430 bytes).
+ 40i,4n,40p,352b,613s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on diplom.pdf (7 pages, 53885 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,46 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: diplom.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: theory.aux
+A level-1 auxiliary file: results.aux
+A level-1 auxiliary file: conclusion.aux
 The style file: science.bst
 Database file #1: amdm.bib
-You've used 1 entry,
+You've used 3 entries,
             2300 wiz_defined-function locations,
-            740 strings with 6010 characters,
-and the built_in function-call counts, 222 in all, are:
-= -- 19
-> -- 8
+            760 strings with 6375 characters,
+and the built_in function-call counts, 665 in all, are:
+= -- 63
+> -- 28
 < -- 0
-+ -- 4
-- -- 2
-* -- 18
-:= -- 40
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 0
++ -- 14
+- -- 7
+* -- 54
+:= -- 107
+add.period$ -- 4
+call.type$ -- 3
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 19
-format.name$ -- 3
-if$ -- 48
+cite$ -- 3
+duplicate$ -- 34
+empty$ -- 55
+format.name$ -- 10
+if$ -- 151
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 6
-num.names$ -- 1
-pop$ -- 4
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 3
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 6
+skip$ -- 19
 stack$ -- 0
-substring$ -- 10
-swap$ -- 3
+substring$ -- 32
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 10
+while$ -- 6
+width$ -- 4
+write$ -- 27
